@@ -5,38 +5,6 @@ This is a scalable FastAPI application template with features like authenticatio
 
 ### 1. Project Structure
 
-The project follows a clean, modular structure:
-
-├── app/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── core/
-│   │   ├── __init__.py
-│   │   ├── config.py
-│   │   └── exceptions.py
-│   ├── api/
-│   │   ├── __init__.py
-│   │   └── v1/
-│   │       ├── __init__.py
-│   │       └── router.py
-│   ├── schemas/
-│   │   ├── __init__.py
-│   │   └── base.py
-│   ├── services/
-│   │   ├── __init__.py
-│   │   └── base.py
-│   └── utils/
-│       ├── __init__.py
-│       └── dependencies.py
-├── tests/
-│   ├── __init__.py
-│   ├── conftest.py
-│   └── test_api/
-│       └── test_v1/
-├── requirements.txt
-└── README.md 
-
-
 Key directories:
 
 - `app/`: Main application code
